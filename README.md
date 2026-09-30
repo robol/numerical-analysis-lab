@@ -2,7 +2,10 @@
 
 Questo repository contiene gli esercizi del laboratorio di Analisi Numerica, da svolgersi durante il corso tenuto
 al secondo anno del corso di Laurea in Matematica dell'Università di Pisa. Le istruzioni per ottenere Julia e 
-lavorare con i notebook sono qui in basso. 
+lavorare con i notebook sono qui in basso. Per comodità, qui trovate i link direttamente ai notebook delle varie lezioni, 
+incluso quello per aprirli in Colab.
+
+ * Lezione 1: [Apri in Google Colab](https://colab.research.google.com/github/robol/numerical-analysis-lab/blob/main/Lezione_01/Laboratorio 01.ipynb) - [Scarica](https://github.com/robol/numerical-analysis-lab/blob/main/Lezione_01/Laboratorio 01.ipynb)
 
 # Ottenere Julia
 
