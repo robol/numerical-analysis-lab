@@ -5,7 +5,7 @@ al secondo anno del corso di Laurea in Matematica dell'Università di Pisa. Le i
 lavorare con i notebook sono qui in basso. Per comodità, qui trovate i link direttamente ai notebook delle varie lezioni, 
 incluso quello per aprirli in Colab.
 
- * Lezione 1: [Apri in Google Colab](https://colab.research.google.com/github/robol/numerical-analysis-lab/blob/main/Lezione_01/Laboratorio 01.ipynb) - [Scarica](https://github.com/robol/numerical-analysis-lab/blob/main/Lezione_01/Laboratorio 01.ipynb)
+ * Lezione 1: [Apri in Google Colab](https://colab.research.google.com/github/robol/numerical-analysis-lab/blob/main/Lezione_01/Laboratorio%2001.ipynb) - [Scarica](https://github.com/robol/numerical-analysis-lab/blob/main/Lezione_01/Laboratorio%2001.ipynb)
 
 # Ottenere Julia
 
