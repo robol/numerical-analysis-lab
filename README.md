@@ -6,6 +6,7 @@ lavorare con i notebook sono qui in basso. Per comodità, qui trovate i link dir
 incluso quello per aprirli in Colab.
 
  * Lezione 1: [Apri in Google Colab](https://colab.research.google.com/github/robol/numerical-analysis-lab/blob/main/Lezione_01/Laboratorio%2001.ipynb) - [Scarica](https://github.com/robol/numerical-analysis-lab/blob/main/Lezione_01/Laboratorio%2001.ipynb)
+ * Lezione 2: [Apri in Google Colab](https://colab.research.google.com/github/robol/numerical-analysis-lab/blob/main/Lezione_02/Laboratorio%2002.ipynb) - [Scarica](https://github.com/robol/numerical-analysis-lab/blob/main/Lezione_02/Laboratorio%2002.ipynb)
 
 # Ottenere Julia
 
