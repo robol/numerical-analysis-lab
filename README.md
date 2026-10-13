@@ -7,6 +7,9 @@ incluso quello per aprirli in Colab.
 
  * Lezione 1: [Apri in Google Colab](https://colab.research.google.com/github/robol/numerical-analysis-lab/blob/main/Lezione_01/Laboratorio%2001.ipynb) - [Scarica](https://github.com/robol/numerical-analysis-lab/blob/main/Lezione_01/Laboratorio%2001.ipynb)
  * Lezione 2: [Apri in Google Colab](https://colab.research.google.com/github/robol/numerical-analysis-lab/blob/main/Lezione_02/Laboratorio%2002.ipynb) - [Scarica](https://github.com/robol/numerical-analysis-lab/blob/main/Lezione_02/Laboratorio%2002.ipynb)
+ * Lezione 3: [Apri in Google Colab](https://colab.research.google.com/github/robol/numerical-analysis-lab/blob/main/Lezione_03/Laboratorio%2003.ipynb) - [Scarica](https://github.com/robol/numerical-analysis-lab/blob/main/Lezione_03/Laboratorio%2003.ipynb)
+ * Lezione 4: [Apri in Google Colab](https://colab.research.google.com/github/robol/numerical-analysis-lab/blob/main/Lezione_04/Laboratorio%2004.ipynb) - [Scarica](https://github.com/robol/numerical-analysis-lab/blob/main/Lezione_04/Laboratorio%2004.ipynb)
+ * Lezione 5: [Apri in Google Colab](https://colab.research.google.com/github/robol/numerical-analysis-lab/blob/main/Lezione_05/Laboratorio%2005.ipynb) - [Scarica](https://github.com/robol/numerical-analysis-lab/blob/main/Lezione_05/Laboratorio%2005.ipynb)
 
 # Ottenere Julia
 
