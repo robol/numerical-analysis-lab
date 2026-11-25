@@ -14,9 +14,8 @@ incluso quello per aprirli in Colab.
  * Lezione 7: [Apri in Google Colab](https://colab.research.google.com/github/robol/numerical-analysis-lab/blob/main/Lezione_07/Laboratorio%2007.ipynb) - [Scarica](https://github.com/robol/numerical-analysis-lab/blob/main/Lezione_07/Laboratorio%2007.ipynb)
  * Lezione 8: [Apri in Google Colab](https://colab.research.google.com/github/robol/numerical-analysis-lab/blob/main/Lezione_08/Laboratorio%2008.ipynb) - [Scarica](https://github.com/robol/numerical-analysis-lab/blob/main/Lezione_08/Laboratorio%2008.ipynb)
  * Lezione 9: [Apri in Google Colab](https://colab.research.google.com/github/robol/numerical-analysis-lab/blob/main/Lezione_09/Laboratorio%2009.ipynb) - [Scarica](https://github.com/robol/numerical-analysis-lab/blob/main/Lezione_09/Laboratorio%2009.ipynb)
- * Lezione 11: [Apri in Google Colab](https://colab.research.google.com/github/robol/numerical-analysis-lab/blob/main/Lezione_11/Laboratorio%2011.ipynb) - [Scarica](https://github.com/robol/numerical-analysis-lab/blob/main/Lezione_11/Laboratorio%2011.ipynb)
+ * Lezione 10: [Apri in Google Colab](https://colab.research.google.com/github/robol/numerical-analysis-lab/blob/main/Lezione_10/Laboratorio%2010.ipynb) - [Scarica](https://github.com/robol/numerical-analysis-lab/blob/main/Lezione_10/Laboratorio%2010.ipynb)
 
-La lezione 10 non è ancora disponibile: manca la dispensa originale in questo repository.
 
 # Ottenere Julia
 
