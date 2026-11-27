@@ -17,6 +17,24 @@ incluso quello per aprirli in Colab.
  * Lezione 10: [Apri in Google Colab](https://colab.research.google.com/github/robol/numerical-analysis-lab/blob/main/Lezione_10/Laboratorio%2010.ipynb) - [Scarica](https://github.com/robol/numerical-analysis-lab/blob/main/Lezione_10/Laboratorio%2010.ipynb)
 
 
+# Installazione rapida su Linux
+
+Su Linux potete installare Julia, Plots.jl, IJulia e un ambiente Python con Jupyter Notebook nella vostra directory home, senza privilegi di amministratore. Da un terminale, scaricate ed eseguite lo [script di installazione](scripts/julia_notebook.sh) con un solo comando:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/robol/numerical-analysis-lab/main/scripts/julia_notebook.sh -o julia_notebook.sh && bash julia_notebook.sh
+```
+
+Sono necessari una connessione Internet e `curl`. Lo script usa juliaup per Julia e Miniconda per l'ambiente Python; installa anche il kernel Python. La prima esecuzione può richiedere diversi minuti.
+
+Al termine si apre Jupyter Notebook nel browser, nella cartella `~/notebooks`. Per lavorare con gli esercizi scegliete il kernel **Julia (Plots)**; per un notebook Python scegliete **Python 3**. Potete caricare i notebook scaricati da questo repository tramite l'interfaccia di Jupyter. Se il browser non si apre automaticamente, aprite l'URL mostrato nel terminale.
+
+Tenete aperto il terminale durante l'utilizzo e premete **Ctrl+C** per fermare il server. Per riavviarlo, riutilizzando l'installazione, eseguite `bash julia_notebook.sh` dalla cartella in cui avete scaricato lo script. Potete anche indicare una cartella diversa per i notebook:
+
+```bash
+bash julia_notebook.sh "$HOME/percorso/dei/notebook"
+```
+
 # Ottenere Julia
 
 Per iniziare a utilizzare Julia, è necessario prima installarla sul proprio computer. La procedure è leggermente
