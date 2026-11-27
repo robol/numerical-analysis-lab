@@ -22,6 +22,8 @@ export JULIA_DEPOT_PATH="$state_dir/depot"
 export CONDA_JL_HOME="$state_dir/miniconda"
 export CONDA_JL_USE_MINIFORGE=0
 export JUPYTER_DATA_DIR="$state_dir/jupyter"
+# Register only the configured kernel below, rather than an additional default.
+export IJULIA_NODEFAULTKERNEL=1
 # An empty JUPYTER tells IJulia to use its Conda-managed Jupyter.
 export JUPYTER=""
 unset CONDA_JL_CONDA_EXE
@@ -72,6 +74,11 @@ printf 'Installing Julia packages and configuring Miniconda (first run can take 
     IJulia.installkernel("Julia (Plots)", "--project=@v#.#";
         env=Dict("JULIA_DEPOT_PATH" => ENV["JULIA_DEPOT_PATH"]))
     using Plots
+    # Remove the default kernel left by earlier versions of this script.
+    # Restrict cleanup to this Julia version inside our private Jupyter directory.
+    default_kernel = joinpath(ENV["JUPYTER_DATA_DIR"], "kernels",
+        "julia-$(VERSION.major).$(VERSION.minor)")
+    rm(default_kernel; recursive=true, force=true)
 '
 
 jupyter=$("$julia" +release --startup-file=no --project=@v#.# -e '
