@@ -71,14 +71,9 @@ printf 'Installing Julia packages and configuring Miniconda (first run can take 
     Conda.add(["notebook", "ipykernel"]; channel="conda-forge",
         args=`--override-channels`)
     using IJulia
-    IJulia.installkernel("Julia (Plots)", "--project=@v#.#";
+    IJulia.installkernel("Julia", "--project=@v#.#";
         env=Dict("JULIA_DEPOT_PATH" => ENV["JULIA_DEPOT_PATH"]))
     using Plots
-    # Remove the default kernel left by earlier versions of this script.
-    # Restrict cleanup to this Julia version inside our private Jupyter directory.
-    default_kernel = joinpath(ENV["JUPYTER_DATA_DIR"], "kernels",
-        "julia-$(VERSION.major).$(VERSION.minor)")
-    rm(default_kernel; recursive=true, force=true)
 '
 
 jupyter=$("$julia" +release --startup-file=no --project=@v#.# -e '
@@ -86,7 +81,7 @@ jupyter=$("$julia" +release --startup-file=no --project=@v#.# -e '
     print(joinpath(Conda.SCRIPTDIR, "jupyter"))
 ')
 
-printf '\nStarting Jupyter in %s\nChoose Python 3 or Julia (Plots) from the New menu.\n' "$notebook_dir"
+printf '\nStarting Jupyter in %s\nChoose Python 3 or Julia from the New menu.\n' "$notebook_dir"
 printf 'Keep this terminal open; press Ctrl+C to stop the server.\n'
 # Jupyter opens the default browser and prints a URL if opening it fails.
 exec "$jupyter" notebook --ip=127.0.0.1 \

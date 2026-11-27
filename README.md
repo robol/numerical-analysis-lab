@@ -27,7 +27,7 @@ curl -fsSL https://raw.githubusercontent.com/robol/numerical-analysis-lab/main/s
 
 Sono necessari una connessione Internet e `curl`. Lo script usa juliaup per Julia e Miniconda per l'ambiente Python; installa anche il kernel Python. La prima esecuzione può richiedere diversi minuti.
 
-Al termine si apre Jupyter Notebook nel browser, nella cartella `~/notebooks`. Per lavorare con gli esercizi scegliete il kernel **Julia (Plots)**; per un notebook Python scegliete **Python 3**. Potete caricare i notebook scaricati da questo repository tramite l'interfaccia di Jupyter. Se il browser non si apre automaticamente, aprite l'URL mostrato nel terminale.
+Al termine si apre Jupyter Notebook nel browser, nella cartella `~/notebooks`. Per lavorare con gli esercizi scegliete il kernel **Julia** (seguito dal numero di versione, ad esempio **Julia 1.13**); per un notebook Python scegliete **Python 3**. Potete caricare i notebook scaricati da questo repository tramite l'interfaccia di Jupyter. Se il browser non si apre automaticamente, aprite l'URL mostrato nel terminale.
 
 Tenete aperto il terminale durante l'utilizzo e premete **Ctrl+C** per fermare il server. Per riavviarlo, riutilizzando l'installazione, eseguite `bash julia_notebook.sh` dalla cartella in cui avete scaricato lo script. Potete anche indicare una cartella diversa per i notebook:
 
