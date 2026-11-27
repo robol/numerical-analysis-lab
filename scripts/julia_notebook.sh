@@ -22,8 +22,6 @@ export JULIA_DEPOT_PATH="$state_dir/depot"
 export CONDA_JL_HOME="$state_dir/miniconda"
 export CONDA_JL_USE_MINIFORGE=0
 export JUPYTER_DATA_DIR="$state_dir/jupyter"
-# Use conda-forge for package downloads in this private environment.
-export CONDA_CHANNELS=conda-forge
 # An empty JUPYTER tells IJulia to use its Conda-managed Jupyter.
 export JUPYTER=""
 unset CONDA_JL_CONDA_EXE
@@ -67,7 +65,9 @@ printf 'Installing Julia packages and configuring Miniconda (first run can take 
 # Start a fresh Julia process after rebuilding Conda so its settings are loaded.
 "$julia" +release --startup-file=no --project=@v#.# -e '
     import Conda
-    Conda.add(["notebook", "ipykernel"])
+    # Conda.jl strips CONDA_* environment variables; pass channel flags directly.
+    Conda.add(["notebook", "ipykernel"]; channel="conda-forge",
+        args=`--override-channels`)
     using IJulia
     IJulia.installkernel("Julia (Plots)", "--project=@v#.#";
         env=Dict("JULIA_DEPOT_PATH" => ENV["JULIA_DEPOT_PATH"]))
